@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://satyadwyoom.github.io/satyadwyoom.github.io/./sitemap.xml
+Sitemap: https://satyadwyoom.github.io/sitemap.xml
