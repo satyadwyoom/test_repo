@@ -141,21 +141,20 @@
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/prof_pic-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/prof_pic-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/prof_pic-1400.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img//img/me-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img//img/me-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img//img/me-1400.webp"></source>
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/prof_pic.jpg" class="img-fluid z-depth-1 rounded" width="auto" height="auto" alt="prof_pic.jpg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img//img/me.jpg" class="img-fluid z-depth-1 rounded" width="auto" height="auto" alt="/img/me.jpg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
 </figure>
 
             <div class="address">
-              <p>555 your office number</p> <p>123 your address street</p> <p>Your City, State 12345</p>
-
+              
             </div>
           </div>
 
@@ -202,25 +201,59 @@
           <!-- Selected papers -->
           <h2><a href="/publications/" style="color: inherit;">selected publications</a></h2>
           <div class="publications">
-            <ol class="bibliography"></ol>
+            <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">ICPR</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="kumar2022introducing" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Introducing Diversity In Feature Scatter Adversarial Training Via Synthesis</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Satyadwyoom Kumar, and Apurva Narayan</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In 2022 26th International Conference on Pattern Recognition (ICPR)</em>, 2022
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 6px;"></span>
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">kumar2022introducing</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Introducing Diversity In Feature Scatter Adversarial Training Via Synthesis}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Kumar, Satyadwyoom and Narayan, Apurva}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{2022 26th International Conference on Pattern Recognition (ICPR)}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{3069--3075}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
+  <span class="na">organization</span> <span class="p">=</span> <span class="s">{IEEE}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li></ol>
           </div>
 
 
           <!-- Social -->
-            <div class="social">
-              <div class="contact-icons">
-                <a href="mailto:%73%61%74%79%61%64%77%79%6F%6F%6D.%65%63%31%38@%6E%73%75%74.%61%63.%69%6E" title="email"><i class="fas fa-envelope"></i></a>
-            <a href="/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
-            
-
-              </div>
-
-              <div class="contact-note">
-                You can even add a little note about which of these is the best way to reach you.
-
-              </div>
-              
-            </div>
         </article>
 
 </div>
