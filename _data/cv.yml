@@ -1,12 +1,3 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Satyadwyoom Kumar
-    - name: Date of Birth
-      value: 29th March 2000
-    - name: Contact
-      value: (+91)-8588038790
 
 - title: Education
   type: time_table
@@ -17,9 +8,7 @@
       description:
         - Electronics and Communication Engineering.
         - CVPSK Scholar (Awarded to top 10 students).
-        - title: Bachelor’s Thesis
-          contents:
-            - Introducing temporally consistent weather conditions in aerial-videos using LSTM & Cycle-GAN.
+        - Bachelor’s Thesis - Introducing temporally consistent weather conditions in aerial-videos using LSTM & Cycle-GAN.
 
 - title: Skills
   type: map
@@ -31,7 +20,7 @@
     - name: Familiar
       value: Matlab, HTML, CSS, JavaScript
     - name: Interests
-      vale: Adversarial ML, Explainability, Computer Vision, Recommendation Systems
+      value: Adversarial ML, Explainability, Computer Vision, Recommendation Systems
 
 
 - title: Professional Experience
