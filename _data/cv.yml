@@ -2,96 +2,102 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Satyadwyoom Kumar
     - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: 29th March 2000
+    - name: Contact
+      value: (+91)-8588038790
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Bachelors of Engineering (B.E.)
+      institution: University of Delhi (NSIT), Delhi, India
+      year: 2018 - 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Electronics and Communication Engineering.
+        - CVPSK Scholar (Awarded to top 10 students).
+        - title: Bachelor’s Thesis
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+            - Introducing temporally consistent weather conditions in aerial-videos using LSTM & Cycle-GAN.
 
-- title: Experience
+- title: Skills
+  type: map
+  contents:
+    - name: Tools and Languages
+      value: Python, C++, R, Git, LATEX, SQL, Hive, Spark, Scrapy
+    - name: ML/DL Frameworks
+      value: Pytorch, Tensorflow, scikit-learn, NLTK
+    - name: Familiar
+      value: Matlab, HTML, CSS, JavaScript
+    - name: Interests
+      vale: Adversarial ML, Explainability, Computer Vision, Recommendation Systems
+
+
+- title: Professional Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: OYO Rooms
+      institution: Sr. Data Scientist
+      year: 2022 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developed a statistical technique to dynamically set booking prices minimizing business costs by an avg. of $28000 monthly.
+        - Utilized the same technique to improve same property cin from 15% to 35% on OTA channels.
+        - Automated a RCA framework for customer escalations (Python + Presto), Saving $12000 spent for manual intervention.
+        - Promoted to Sr. Data Scientist position within 9 months.
+    - title: Dell Technologies
+      institution: Data Scientist
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Developed an innovative method utilizing Bag of Words (BoW) representation and cosine similarity to eliminate redundant terms
+          from web-scraped data, thereby optimizing it for downstream utilization.
+        - Developed web crawlers using Python & Scrapy for extracting computer component data from e-commerce platforms.
+        - Automated the data pipeline (SQL + Python), leading to a reduction in (TAT) from an avg. of 4hrs to under 10mins.
+        - PPO Awarded. Declined in pursuit of challenges within a Unicorn Startup.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Research Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: University of British Columbia, Canada
+      institution: Dr. Apurva Narayan (Dept. Computer Science)
+      year: 2020 - Present
+      description:
+        - Developing a framework to provide vendors with item level modifications for improved user preference.
+        - Developed, frameworks of empirical and provably-certified adversarial defenses for CNNs.
+        - Developed a GAN-based adversary which generates adversarial perturbations for robust adversarial training.
+        - Developed a certified defence framework with a novel gaussian noise addition procedure for defending black-box CNNs.
+        - Publications accepted at ICPR-2022, IEEE-IJCNN-2022.
+    - title: National University Singapore
+      institution: Prof. Hongliang Ren, (Dept. Biomedical Engineering)
+      year: 2021
+      description:
+        - Developed an lightweight multi-task learning model for robotic arm based surgical workflow recognition.
+        - Proposed method utilizes a pretrained ResNet18 with LSTMs to analyze robotic arm interactions over time.
+        - Our method gave individual attention to the physical parameters of both left and right arms of the robot.
+        - Published at Journal of Computer Methods and Programs in Biomedicine.
+    - title: IIIT-Delhi
+      institution: Dr. Arun Balaji Buduru (Dept. Computer Science)
+      year: 2020
+      description:
+        - Developed physical adversarial patches, which are capable of fooling driver-state detection models.
+        - Adversarial patches are optimized using Zeroth-Order optimization technique (gradient free approach).
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
 
-- title: Academic Interests
+- title: PROJECTS
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Deep Reinforcement Learning For Control Problems
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Applied Deep Reinforcement Learning to create agents to perform different tasks automatically.
+        - Utilized Deep-Q-learning algorithm to create an agent that could play soccer and tennis.
+        - Developed an agent using the cross-entropy method that could land a lunar lander in a space environment.
+    - title: WiFi based Crowd Counter
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - Utilized promiscuous mode of an ESP8266 module to collect WiFi packets released by mobile phones.
+        - From the fetched WiFi packets MAC-Addresses are extracted and crowd count is estimated.
+        - Developed a purge mechanism to reduce unnecessary noise and get accurate results.
+    - title: Reddit Flair Detector
+      items:
+        - Developed a machine learning-based Reddit post flair (eg- politics/business etc.) detection web app.
+        - Tested multiple models and chose the best(Support vector classifier) using a macro level based f1-score (68%) metric to account
+          for all classes.
