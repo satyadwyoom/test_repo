@@ -3,8 +3,6 @@ layout: about
 title: HOME
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-nav: True
-nav_order: 1
 
 profile:
   align: right
