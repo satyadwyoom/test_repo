@@ -72,7 +72,7 @@
         - Adversarial patches are optimized using Zeroth-Order optimization technique (gradient free approach).
 
 
-- title: PROJECTS
+- title: Projects
   type: nested_list
   contents:
     - title: Deep Reinforcement Learning For Control Problems
