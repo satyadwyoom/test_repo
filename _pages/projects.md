@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: PROJECTS
 permalink: /projects/
-description: A growing collection of your cool projects.
-nav: false
-nav_order: 
-display_categories: [work, fun]
+description: 
+nav: true
+nav_order: 4
+display_categories: 
 horizontal: false
 ---
 
