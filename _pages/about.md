@@ -22,7 +22,7 @@ My academic journey led me to the Intelligent Data Science Lab at the [`Universi
 
 These experiences have sharpened my skills and ignited a passion to fathom the underlying causes of `uncertainty in machine learning model predictions`, driving me to `develop robust methods`. I invite you to delve into my journey, exploring how my expertise can be a valuable contribution to your projects. -->
 
-`Greetings!` I'm a Senior Data Scientist at `OYO Rooms`, where I specialize in enhancing customer experiences through innovative techniques such as `Dynamic Pricing, Classification, Exploratory Data Analysis (EDA), and Large Language Models (LLMs)`. In my previous role at `Dell Technologies`, I focused on transforming text data using `Natural Language Processing (NLP)`.
+`Greetings!` I'm a Senior Data Scientist at `OYO Rooms`, where I specialize in enhancing customer experiences through innovative techniques such as Dynamic Pricing, Classification, Exploratory Data Analysis (EDA), and Large Language Models (LLMs). In my previous role at `Dell Technologies`, I focused on transforming text data using `Natural Language Processing (NLP)`.
 
 My academic journey led me to the Intelligent Data Science Lab at the [`University of British Columbia, Canada`](https://www.ubc.ca/),  where I collaborated with [`Dr. Apurva Narayan`](https://a-narayan.github.io/team/). Simultaneously, I engaged in impactful research at the Medical Mechatronics Lab in the [`National University of Singapore`](https://www.nus.edu.sg/) under the guidance of [`Dr. Hongliang Ren`](https://scholar.google.com/citations?user=rcF7N44AAAAJ&hl=en).
 
