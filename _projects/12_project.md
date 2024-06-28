@@ -2,7 +2,7 @@
 layout: page
 title:  Stock Price Projection
 description: 
-img: assets/img/assets/output.png
+img: assets/img/output.png
 importance: 2
 category: work
 redirect: false
